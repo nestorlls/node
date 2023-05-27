@@ -7,5 +7,5 @@ fs.rename('data.txt', 'new_data.txt', (err) => {
   console.log(`File renamed successfuly`);
 });
 
-//To check it's Asynchronous nature !
+// To check it's Asynchronous nature !
 console.log('This method is Asynchronous');
